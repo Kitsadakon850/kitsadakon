@@ -1,0 +1,38 @@
+img{
+    width: 100%;
+    
+}
+.box{
+    overflow: hidden;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+.slider{
+    width: 100%;
+    display: flex;
+    animation: slider 16s infinite;
+}
+@keyframes slider{
+    0%{
+        transform: translateX(0%);
+
+    }
+    25%{
+        transform: translateX(0%);
+    }
+    30%{
+        transform: translateX(-100%);
+    }
+    50%{
+        transform: translateX(-100%);
+    }
+    55%{
+        transform: translateX(-200%);
+    }
+    75%{
+        transform: translateX(-200%);
+    }
+
+}
+
+
